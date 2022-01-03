@@ -94,7 +94,7 @@ void ChangeDpiDialog::onSubmit() {
     return;
   }
 
-  if (dpi > 1200) {
+  if (dpi > 12000) {
     QMessageBox::warning(this, tr("Error"), tr("DPI is too high!"));
     return;
   }
